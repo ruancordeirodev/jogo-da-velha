@@ -1,64 +1,31 @@
-# 🎮 Jogo da Velha com IA (Minimax)
+# 🎮 Jogo da Velha com IA
 
-Jogo da velha interativo desenvolvido com HTML, CSS e JavaScript puro, com inteligência artificial baseada no algoritmo Minimax.
+Projeto desenvolvido com JavaScript puro, HTML e CSS, implementando uma IA baseada em algoritmo Minimax.
 
 ## 🚀 Demonstração
-🔗 https://github.com/ruancordeirodev/jogo-da-velha
+Jogue contra a IA e tente vencer um algoritmo otimizado.
 
----
-
-## ⚙️ Funcionalidades
-
-- 🎮 Jogador vs IA
-- 🧠 IA inteligente (Minimax – impossível de perder)
-- 🏆 Detecção de vitória e empate
-- 🎨 Destaque da linha vencedora
-- 🔄 Reset de partida
-- 📱 Interface responsiva
-- ⚡ Atualização de estado em tempo real
-
----
-
-## 🧠 Lógica aplicada
-
-- Algoritmo Minimax para tomada de decisão da IA
-- Controle de estado do jogo via array (board state)
-- Validação de condições de vitória
-- Renderização dinâmica do DOM
-
----
-
-## 🛠️ Tecnologias
-
+## 🧠 Tecnologias usadas
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript 
+- Algoritmo Minimax
 
----
+## ⚙️ Funcionalidades
+- Jogador vs IA inteligente
+- Sistema de detecção de vitória
+- Destaque de jogadas vencedoras
+- Reset de partida
+- Interface responsiva simples
 
-## 📸 Preview
+## 🧠 Lógica da IA
+A IA utiliza o algoritmo Minimax para calcular a jogada ótima em cada turno, garantindo comportamento competitivo.
 
-
-![Preview](assets/image.png)
-
----
-
-## 💡 Aprendizados
-
-- Manipulação avançada do DOM
-- Lógica de jogos e árvores de decisão
-- Implementação de algoritmo recursivo (Minimax)
-- Controle de estado limpo em JavaScript
-
----
-
-## 📌 Status do Projeto
-
-✔ Finalizado  
-✔ Responsivo    
-
----
+## 📊 Melhorias futuras
+- Sistema de placar persistente
+- Modo difícil/fácil
+- Multiplayer local
+- Animações visuais
 
 ## 👨‍💻 Autor
-
-Desenvolvido por [RUAN CORDEIRO DOS SANTOS ]
+Projeto desenvolvido por Ruan Cordeiro dos santos
