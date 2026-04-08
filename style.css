@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container central */
+.container {
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Tabuleiro */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Células */
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #1e293b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover */
+.cell:hover {
+  background: #334155;
+  transform: scale(1.05);
+}
+
+/* Botão */
+button {
+  padding: 10px 20px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#status {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.winner {
+  background: #325c94 !important;
+  color: #0f172a;
+}
+
+/* Placar */
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+  .board {
+    grid-template-columns: repeat(3, 80px);
+    gap: 8px;
+  }
+
+  .cell {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

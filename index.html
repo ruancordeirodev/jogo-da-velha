@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Jogo da Velha</h1>
+
+    <!-- PLACAR LIMPO -->
+    <div class="scoreboard">
+      <div>❌ Jogador: <span id="score-x">0</span></div>
+      <div>⭕ IA: <span id="score-o">0</span></div>
+    </div>
+
+    <!-- STATUS -->
+    <p id="status">Sua vez</p>
+
+    <!-- TABULEIRO -->
+    <div class="board">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- RESET -->
+    <button id="reset">Reiniciar</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
